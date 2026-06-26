@@ -1,0 +1,120 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+
+body{
+    font-family:'Poppins',sans-serif;
+    background:#f5f5f5;
+}
+
+.custom-navbar{
+    background:#006400;
+    padding:15px 0;
+}
+
+.navbar-brand{
+    font-size:1.5rem;
+}
+
+.nav-link{
+    margin-left:15px;
+    transition:.3s;
+}
+
+.nav-link:hover{
+    color:#ffd700 !important;
+}
+
+.hero{
+    min-height:100vh;
+
+    background-image:
+    linear-gradient(
+        rgba(0,0,0,.55),
+        rgba(0,0,0,.55)
+    ),
+    url("https://upload.wikimedia.org/wikipedia/commons/a/a2/Government_Secretariat_of_Kerala_001.jpg");
+
+    background-size:cover;
+    background-position:center;
+    background-repeat:no-repeat;
+
+    display:flex;
+    align-items:center;
+}
+
+.hero h1{
+    font-size:4rem;
+}
+
+.hero p{
+    font-size:1.2rem;
+}
+
+.feature-card{
+    background:white;
+    padding:30px;
+    border-radius:15px;
+    box-shadow:0 5px 15px rgba(0,0,0,.1);
+    transition:.3s;
+}
+
+.feature-card:hover{
+    transform:translateY(-8px);
+}
+
+.btn-success{
+    background:#198754;
+    border:none;
+}
+
+.btn-success:hover{
+    background:#157347;
+}
+
+.btn-outline-success:hover{
+    color:white;
+}
+
+img{
+    max-width:100%;
+}
+
+footer{
+    background:#006400;
+    color:white;
+}
+
+.minister-card{
+    border:none;
+    border-radius:15px;
+    overflow:hidden;
+    transition:.3s;
+    box-shadow:0 5px 15px rgba(0,0,0,.12);
+}
+
+.minister-card:hover{
+    transform:translateY(-10px);
+}
+
+.minister-card img{
+    height:300px;
+    object-fit:cover;
+}
+
+.card-title{
+    font-weight:600;
+}
+
+@media(max-width:768px){
+
+    .hero h1{
+        font-size:2.5rem;
+    }
+
+    .hero{
+        text-align:center;
+    }
+}
